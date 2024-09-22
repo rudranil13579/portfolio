@@ -3,7 +3,7 @@ import logo from '../assets/logo.png'; // Assuming the path is correct for Vite
 
 const NavBar = () => {
   return (
-    <nav className="fixed top-0 left-0 right-0 backdrop-blur-md bg-white/30 shadow-md">
+    <nav className="fixed top-0 left-0 right-0 backdrop-blur-md bg-white/30 shadow-md z-50">
       
         <div className="flex items-center justify-between h-14">
           <div className="flex items-center pl-4">
